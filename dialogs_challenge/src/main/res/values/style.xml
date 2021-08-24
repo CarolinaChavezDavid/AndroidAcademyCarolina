@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="app_title_style">
+        <item name="android:textColor">@color/alice_blue</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/baloo_tamma</item>
+        <item name="android:background">@color/space_cadet</item>
+    </style>
+
+    <style name="dialog_custom_title">
+        <item name="android:textColor">@color/imperial_red</item>
+        <item name="android:textSize">@dimen/dialogs_title_size</item>
+        <item name="fontFamily">@font/baloo_tamma</item>
+        <item name= "android:layout_marginTop">@dimen/button_margin</item>
+    </style>
+
+    <style name="dialog_costum_text">
+        <item name="android:textColor">@color/alice_blue</item>
+        <item name="android:textSize">@dimen/dialogs_text_size</item>
+    </style>
+
+    <style name="dialog_button_1">
+        <item name="android:textColor">@color/alice_blue</item>
+        <item name="android:text">@string/dialog_native</item>
+        <item name="fontFamily">@font/baloo_tamma</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name= "android:paddingTop">@dimen/button_margin</item>
+        <item name= "android:paddingBottom">@dimen/button_margin</item>
+    </style>
+
+    <style name="dialog_button_2">
+        <item name="android:textColor">@color/alice_blue</item>
+        <item name="android:text">@string/dialog_custom</item>
+        <item name="fontFamily">@font/baloo_tamma</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name= "android:paddingTop">@dimen/button_margin</item>
+        <item name= "android:paddingBottom">@dimen/button_margin</item>
+    </style>
+    <style name="dialog_button_3">
+        <item name="android:textColor">@color/alice_blue</item>
+        <item name="android:text">@string/fragment_dialog</item>
+        <item name="fontFamily">@font/baloo_tamma</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+        <item name= "android:paddingTop">@dimen/button_margin</item>
+        <item name= "android:paddingBottom">@dimen/button_margin</item>
+    </style>
+
+    <style name="fragment_cancel">
+        <item name="android:textColor">@color/alice_blue</item>
+        <item name="android:text">@string/cancel</item>
+        <item name="fontFamily">@font/baloo_tamma</item>
+        <item name="android:textSize">@dimen/dialogs_title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">@dimen/button_margin</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.MaterialComponents">
+        <item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="android:textSize">@dimen/dialogs_text_size</item>
+    </style>
+
+    <style name="MaterialAlertDialog.App.Title.Text" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/imperial_red</item>
+        <item name="android:textSize">@dimen/dialogs_text_size</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button.TextButton</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="android:textSize">@dimen/dialogs_text_size</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button" parent="">
+        <item name="colorPrimary">@color/imperial_red</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button.TextButton" parent="">
+        <item name="colorPrimary">@color/green_ryb</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

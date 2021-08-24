@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="manatee">#8D99AE</color>
+    <color name="silver_sand">#BDC6D1</color>
+    <color name="space_cadet">#2B2D42</color>
+    <color name="imperial_red">#EF233C</color>
+    <color name="rose_mader">#E41237</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="alice_blue">#EDF2F4</color>
+    <color name="black_coral">#5C6378</color>
+</resources>

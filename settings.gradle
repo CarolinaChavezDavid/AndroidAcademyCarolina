@@ -1,0 +1,10 @@
+rootProject.name = "AC-MenuChallenges"
+include ':app'
+include ':dialogs_challenge'
+include ':api_challenge'
+include ':screen_challenge'
+include ':fragments_challenge'
+include ':grid_challenge'
+include ':camara_challenge'
+include ':viewpager_challenge'
+include ':observer_pattern_challenge'

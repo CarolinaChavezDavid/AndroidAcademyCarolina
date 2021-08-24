@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="app_title_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/title_serie_size</item>
+        <item name="fontFamily">@font/just_me_again_down_here</item>
+    </style>
+
+    <style name="TextAppearance.bar" parent="TextAppearance.AppCompat">
+        <item name="fontFamily">@font/just_me_again_down_here</item>
+        <item name="android:fontFamily">@font/just_me_again_down_here</item>
+    </style>
+</resources>

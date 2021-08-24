@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dialogs_Challenge</string>
+    <string name="app_title">Dialogs</string>
+    <string name="dialog_native">Native Dialog</string>
+    <string name="dialog_custom">Custom Dialog</string>
+    <string name="fragment_dialog">Fragment Dialog</string>
+    <string name="d_native">Return dialog</string>
+    <string name="d2_native">Would you like to return to the menu?</string>
+    <string name="cancel">Cancel</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="ok">Ok!!</string>
+    <string name="why">why???!!</string>
+    <string name="fragment_question">Which is the  fifth planet closest to the sun?</string>
+</resources>

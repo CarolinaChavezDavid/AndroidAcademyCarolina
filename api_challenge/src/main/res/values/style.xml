@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="app_title_style">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/merienda_one</item>
+    </style>
+
+    <style name="movie_title_style">
+        <item name="android:textColor">@color/alice_blue</item>
+        <item name="android:textSize">@dimen/title_movie_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/merienda_one</item>
+        <item name="android:gravity">center</item>
+        <item name = "android:text">@string/tittle</item>
+    </style>
+</resources>

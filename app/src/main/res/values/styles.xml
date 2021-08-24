@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="menu_title">
+        <item name="android:fontFamily">@font/chelsea_market</item>
+        <item name="android:background">@color/platinum</item>
+        <item name="android:textColor">@color/sheen_gray</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:padding">@dimen/title_padding</item>
+    </style>
+    <style name="challenge_item">
+        <item name="android:fontFamily">@font/chelsea_market</item>
+        <item name="android:background">@color/electric_lime</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/item_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/item_padding</item>
+    </style>
+
+</resources>
